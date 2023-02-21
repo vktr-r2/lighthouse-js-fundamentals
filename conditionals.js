@@ -1,4 +1,4 @@
-const raining = true;  //Intro and define raining var
+const raining = false;  //Intro and define raining var
 
 const cold = true; //Intro and define cold var
 
@@ -17,6 +17,7 @@ console.log('Now you\'re ready :)');
 
 
 
+//Skip line in log for terminal readability
 console.log('\n');
 
 
@@ -32,17 +33,44 @@ if (frigid) {
 }
 
 
+
+//Skip line in log for terminal readability
 console.log('\n');
 
 
+
 //Intro and define temp
-const temp = 12
+const temp = 40
 
 //If/Else on what to wear based on temp
-if (temp < 0) {
+if (temp < 5) {
   console.log('Full winter gear today!');
 } else if (temp < 12) {
   console.log('Light jacket should be just fine');
 } else {
-  console.log('Ooo baby, we golfing :)');
+  console.log('Ooo baby, we golfin :)');
+}
+
+
+
+//Skip line in log for terminal readability
+console.log('\n');
+
+
+
+//If/Else to determine if we should even be going outside
+if (temp <-35 || temp >35) {
+  console.log('On second though, maybe we should stay indoors today.');
+}
+
+
+
+//Skip line in log for terminal readability
+console.log('\n');
+
+
+
+//If/Else using logical not to determine if umbrella is needed
+if (!raining) {
+  console.log('Leave your umbrella at home today.');
 }
