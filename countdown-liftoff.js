@@ -14,5 +14,5 @@ while (x >= 0) {
     : (x === 0)? 'Solid rocket booster ignition and liftoff!'
     :`T-${x} seconds`;
     console.log(output);
-    x = x-1;
+    x -= 1;
 }
