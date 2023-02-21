@@ -12,7 +12,7 @@ while (x >= 0) {
     : (x === 10)? 'Activate main engine hydrogen burnoff system'
     : (x === 6)? 'Main engine start'
     : (x === 0)? 'Solid rocket booster ignition and liftoff!'
-    : x ;
+    :`T-${x} seconds`;
     console.log(output);
     x = x-1;
 }
