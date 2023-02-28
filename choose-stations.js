@@ -9,7 +9,7 @@ const stations = [
 const chooseStations = function (locations) {
   //Introducte goodStations array where suitable locations will be stored
   let goodStations = [];
-  for (i = 0; i < locations.length; i++) {
+  for (let i = 0; i < locations.length; i++) {
     if (locations[i][1] > 19 && (locations[i][2] === 'community centre' || locations[i][2] === 'school')) {
       goodStations.push(locations[i][0]);
     } 
